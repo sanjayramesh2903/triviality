@@ -1,39 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Your Website Title</title>
-    <!-- Link to external stylesheets (if any) -->
-    <link rel="stylesheet" href="styles.css">
-    <!-- You can add a favicon here if you like -->
-    <link rel="icon" href="favicon.ico">
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section id="home">
-            <h1>Welcome to Your Website!</h1>
-            <p>Introductory text or call to action here.</p>
-        </section>
-
-        <section id="about">
-            <h2>About</h2>
-            <p>Information about your project or website.</p>
-        </section>
-
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>How visitors can get in touch with you.</p>
-        </section>
-
+<section id="mock-exam">
+    <h2 id="exam-title">Mock Exam</h2>
+    <div id="timer">Time Left: <span id="time-left">00:00</span></div>
+    <div id="question-container">
+        <!-- Questions will be dynamically inserted here -->
+    </div>
+    <button id="submit-btn" onclick="submitExam()">Submit Exam</button>
+    <div id="result" style="display: none;"></div>
+</section>
